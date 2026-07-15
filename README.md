@@ -1,7 +1,8 @@
 ![Capa do case SIM Mobile](capa-sim-mobile.png)
+
 # SIM Mobile
 
-## Da fricção operacional ao fluxo digital
+## Do registro tardio à operação conectada
 
 O **SIM Mobile** foi uma iniciativa de transformação digital aplicada à manutenção industrial, criada para aproximar o sistema corporativo da rotina dos profissionais em campo.
 
@@ -9,7 +10,7 @@ O problema central não estava apenas no sistema ou nos indicadores. Estava no m
 
 Enquanto o trabalho acontecia no chão de fábrica, atividades importantes ainda dependiam de computadores fixos localizados em salas de apoio. Para consultar estoque, abrir ou atualizar ordens de manutenção, registrar horas de trabalho ou concluir atividades, os técnicos precisavam se afastar do local da execução.
 
-Quando o acesso ao computador não era imediato, o registro das informações podia ser adiado até o final do turno. Assim, a fricção operacional e a baixa qualidade dos dados faziam parte do mesmo problema.
+Quando o acesso ao computador não era imediato, o registro das informações podia ser adiado até o final do turno. Assim, o atrito operacional e a baixa qualidade dos dados faziam parte do mesmo problema.
 
 ---
 
@@ -48,7 +49,7 @@ A operação acontecia, mas o sistema nem sempre refletia a realidade no mesmo m
 
 Foi desenvolvida uma solução mobile integrada ao sistema corporativo de manutenção.
 
-O objetivo não era reproduzir integralmente o sistema utilizado nos computadores, mas disponibilizar no celular os fluxos mais importantes para a execução do trabalho em campo.
+O objetivo não era reproduzir integralmente no celular o sistema utilizado nos computadores, mas disponibilizar os fluxos mais importantes para a execução do trabalho em campo.
 
 Ao longo da evolução do produto, foram disponibilizadas funcionalidades relacionadas a:
 
@@ -242,7 +243,7 @@ Uma etapa seguinte poderia conectar os dados de acesso, os eventos das ordens de
 
 ## Principais aprendizados
 
-### 1. Transformação digital começa pela fricção operacional
+### 1. Transformação digital começa pela realidade operacional
 
 O ponto de partida não foi uma tecnologia específica. Foi um técnico precisando deixar a máquina para encontrar um computador.
 
