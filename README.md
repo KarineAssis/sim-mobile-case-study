@@ -1,3 +1,4 @@
+![Capa do case SIM Mobile](ChatGPT Imagem 15 de julho de 2026, 12_41_41 PM.png)
 # SIM Mobile
 
 ## Da fricção operacional ao fluxo digital
