@@ -5,7 +5,9 @@
 <br>
 
 <div align="center">
-  <a href="SIM_Mobile_Case_Study_Karine_de_Assis_EN.pdf.pdf"><strong>📄 Ver o case executivo completo em inglês</strong></a>
+  <a href="SIM_Mobile_Case_Study_Karine_de_Assis_PT.pdf"><strong>📄 Versão em português</strong></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="SIM_Mobile_Case_Study_Karine_de_Assis_EN.pdf"><strong>📄 English version</strong></a>
 </div>
 
 <br>
@@ -235,11 +237,12 @@ Este repositório apresenta o problema, a solução, minha atuação e os aprend
 
 ---
 
-## Case executivo
+## Cases executivos
 
-O material completo reúne a narrativa visual do projeto, a jornada anterior, a evolução do produto, o piloto, a gestão da mudança, as evidências disponíveis e as oportunidades analíticas.
+Os materiais completos reúnem a narrativa visual do projeto, a jornada anterior, a evolução do produto, o piloto, a gestão da mudança, as evidências disponíveis e as oportunidades analíticas.
 
-### [📄 Visualizar o case completo em inglês](SIM_Mobile_Case_Study_Karine_de_Assis_EN.pdf.pdf)
+- [📄 Visualizar o case completo em português](SIM_Mobile_Case_Study_Karine_de_Assis_PT.pdf)
+- [📄 View the complete case study in English](SIM_Mobile_Case_Study_Karine_de_Assis_EN.pdf)
 
 ---
 
