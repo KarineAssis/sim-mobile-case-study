@@ -1,243 +1,201 @@
-![Capa do case SIM Mobile](capa-sim-mobile.png)
+<div align="center">
+  <img src="capa-sim-mobile.png" alt="Capa do case SIM Mobile" width="100%">
+</div>
+
+<br>
+
+<div align="center">
+  <a href="SIM_Mobile_Case_Study_Karine_de_Assis_EN.pdf.pdf"><strong>📄 Ver o case executivo completo em inglês</strong></a>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Business%20Analysis-0B2436?style=for-the-badge" alt="Business Analysis">
+  <img src="https://img.shields.io/badge/Operational%20Excellence-0B2436?style=for-the-badge" alt="Operational Excellence">
+  <img src="https://img.shields.io/badge/Product%20Delivery-D18A3F?style=for-the-badge" alt="Product Delivery">
+  <img src="https://img.shields.io/badge/Change%20Management-D18A3F?style=for-the-badge" alt="Change Management">
+</div>
 
 # SIM Mobile
 
 ## Do registro tardio à operação conectada
 
-O **SIM Mobile** foi uma iniciativa de transformação digital aplicada à manutenção industrial, criada para aproximar o sistema corporativo da rotina dos profissionais em campo.
+O **SIM Mobile** foi uma iniciativa de transformação digital aplicada à manutenção industrial. O objetivo era aproximar atividades críticas do sistema corporativo do local onde o trabalho realmente acontecia.
 
-O problema central não estava apenas no sistema ou nos indicadores. Estava no momento em que o dado era registrado.
+O problema não estava apenas no sistema ou nos indicadores. Estava no momento em que o dado era registrado.
 
-Enquanto o trabalho acontecia no chão de fábrica, atividades importantes ainda dependiam de computadores fixos localizados em salas de apoio. Para consultar estoque, abrir ou atualizar ordens de manutenção, registrar horas de trabalho ou concluir atividades, os técnicos precisavam se afastar do local da execução.
+Enquanto a manutenção acontecia no chão de fábrica, atividades como consultar estoque, abrir ou atualizar ordens, registrar mão de obra e concluir serviços ainda dependiam de computadores fixos em salas de apoio. Quando o acesso não era imediato, o registro podia ser adiado até o fim do turno.
 
-Quando o acesso ao computador não era imediato, o registro das informações podia ser adiado até o final do turno. Assim, o atrito operacional e a baixa qualidade dos dados faziam parte do mesmo problema.
-
----
-
-## Resumo executivo
-
-O projeto teve como objetivo transformar etapas importantes da rotina de manutenção em fluxos acessíveis por dispositivos móveis.
-
-A solução foi desenvolvida de forma incremental, começando pelas atividades que geravam maior atrito operacional e evoluindo após testes, validações e uso em campo.
-
-Minha atuação ocorreu pelo lado do negócio, conectando a realidade da manutenção à equipe de Tecnologia da Informação.
+A solução levou os fluxos mais importantes para dispositivos móveis e criou uma conexão mais direta entre execução, registro e análise.
 
 ---
 
-## O problema
+## Visão geral
 
-O processo anterior apresentava desafios como:
+| Indicador | Evidência disponível |
+|---|---:|
+| Início da implantação | **2021** |
+| Fluxos disponibilizados | **5+** |
+| Usuários habilitados até out/2022 | **148** |
+| Unidades brasileiras acompanhadas | **3** |
+
+> **Nota de leitura:** usuários habilitados não equivalem automaticamente a usuários ativos. Os dados históricos disponíveis comprovam a liberação dos acessos, mas não a frequência diária de uso ou o ganho financeiro do projeto.
+
+---
+
+## O desafio operacional
+
+O processo anterior criava uma desconexão física entre a manutenção e o sistema:
 
 - dependência de computadores fixos;
-- deslocamentos entre o chão de fábrica e as salas de apoio;
-- espera por computadores disponíveis;
-- atraso no registro das atividades realizadas;
-- ordens de manutenção que permaneciam abertas por mais tempo;
-- apontamentos de mão de obra realizados posteriormente;
-- menor aderência entre os dados do sistema e a realidade operacional;
-- dificuldade de obter informações confiáveis e tempestivas para análise.
+- deslocamentos entre a área produtiva e as salas de apoio;
+- espera por estações disponíveis;
+- registros realizados depois da execução;
+- ordens que permaneciam abertas por mais tempo;
+- apontamentos de mão de obra feitos posteriormente;
+- menor aderência entre o sistema e a realidade operacional.
 
-### A cadeia oculta do problema
+### A cadeia por trás do problema
 
 **Registro atrasado → apontamentos ausentes → ordens abertas → dados menos confiáveis → capacidade analítica limitada**
 
-A operação acontecia, mas o sistema nem sempre refletia a realidade no mesmo momento.
+A operação acontecia, mas o sistema nem sempre refletia essa realidade no mesmo momento.
+
+---
+
+## Antes e depois
+
+<div align="center">
+  <img src="assets/processo-antes-depois.svg" alt="Comparação entre o processo anterior e o processo com o SIM Mobile" width="100%">
+</div>
+
+A principal mudança não foi simplesmente trocar o computador pelo celular. Foi aproximar o registro do ponto de execução e reduzir etapas entre o trabalho realizado e o dado disponível no sistema.
 
 ---
 
 ## A solução
 
-Foi desenvolvida uma solução mobile integrada ao sistema corporativo de manutenção.
+O SIM Mobile foi concebido como uma extensão dos fluxos mais relevantes do sistema corporativo de manutenção — não como uma réplica completa da versão desktop.
 
-O objetivo não era reproduzir integralmente no celular o sistema utilizado nos computadores, mas disponibilizar os fluxos mais importantes para a execução do trabalho em campo.
-
-Ao longo da evolução do produto, foram disponibilizadas funcionalidades relacionadas a:
+A evolução priorizou os momentos de maior atrito operacional:
 
 - manutenção corretiva;
 - criação e atualização de ordens de manutenção;
 - consulta de estoque;
 - manutenção preventiva;
 - consulta de apontamentos de mão de obra;
-- requisição de materiais;
-- registro de informações mais próximo do local da execução.
+- requisição de materiais.
 
-### Princípio de desenvolvimento
+### Princípio de desenho
 
-A solução foi orientada por uma pergunta simples:
+> **O que o técnico realmente precisa fazer enquanto está ao lado da máquina?**
 
-> O que o técnico realmente precisa fazer enquanto está ao lado da máquina?
-
-Essa abordagem ajudou a priorizar os fluxos de maior valor operacional.
+Essa pergunta orientou a priorização das funcionalidades e manteve o produto conectado à rotina real dos usuários.
 
 ---
 
 ## Minha atuação
 
-Atuei como responsável pela condução da iniciativa pelo lado do negócio.
+Liderei a iniciativa pelo lado do negócio, conectando a experiência da manutenção à entrega técnica conduzida pela equipe de TI.
 
-Não desenvolvi tecnicamente o software. Minha responsabilidade foi traduzir os processos de manutenção em requisitos funcionais, validar a solução e coordenar as atividades necessárias para que ela funcionasse no ambiente operacional real.
+Meu escopo incluiu:
 
-Minhas principais responsabilidades incluíram:
-
-- identificação das principais dores operacionais;
+- identificação das dores operacionais;
 - mapeamento da jornada dos usuários;
-- levantamento das necessidades das equipes de manutenção;
-- tradução dos processos operacionais em requisitos funcionais;
+- levantamento e priorização de necessidades;
+- tradução dos processos em requisitos funcionais;
 - definição de telas, fluxos e comportamentos esperados;
-- priorização das funcionalidades;
-- conexão entre as áreas de Manutenção e Tecnologia da Informação;
+- alinhamento contínuo entre Manutenção e Tecnologia da Informação;
 - acompanhamento do desenvolvimento;
-- esclarecimento de dúvidas sobre os fluxos operacionais;
 - execução de testes funcionais;
 - identificação de erros e inconsistências;
-- coordenação de correções com a equipe de TI;
-- repetição dos testes após os ajustes;
-- condução e acompanhamento do projeto-piloto;
+- coordenação de correções e novos ciclos de teste;
+- condução do piloto;
 - treinamento inicial da equipe de PCM;
-- apoio à implantação;
-- suporte à comunicação e à gestão da mudança;
-- acompanhamento da liberação de acessos;
-- apoio à adoção da solução pelas equipes.
+- apoio ao rollout, comunicação e gestão da mudança;
+- acompanhamento da liberação de acessos e da adoção inicial.
 
----
-
-## Jornada anterior
-
-Antes da solução, uma atividade podia percorrer as seguintes etapas:
-
-1. uma necessidade era identificada no chão de fábrica;
-2. o técnico se afastava da máquina;
-3. deslocava-se até uma sala de apoio;
-4. aguardava um computador disponível;
-5. acessava o sistema para consultar ou registrar informações;
-6. retornava à área de produção.
-
-Em alguns casos, o técnico conseguia reparar a máquina mais rapidamente do que concluir o processo administrativo relacionado ao serviço.
+O desenvolvimento técnico do software ficou sob responsabilidade da TI. Minha responsabilidade foi garantir que a solução refletisse os processos reais e pudesse ser aplicada no ambiente operacional.
 
 ---
 
 ## Evolução do produto
 
-A solução evoluiu de forma incremental, começando pelos fluxos de maior atrito e ampliando o escopo após validação.
+A solução foi ampliada de forma incremental, começando pelos fluxos de maior atrito e avançando após testes e validações.
 
-| Período | Fase | Evolução |
+| Período | Etapa | Entrega |
 |---|---|---|
-| Março de 2021 | Modelagem e desenvolvimento | Estruturação e desenvolvimento inicial da solução mobile |
-| Junho de 2021 | Fase 1 | Manutenção corretiva, criação de ordens e consulta de estoque |
-| Dezembro de 2021 | Expansão | Manutenção preventiva e consulta de apontamentos de mão de obra |
-| Novembro de 2022 | Novo fluxo | Requisição de materiais |
-
----
-
-## Projeto em números
-
-- **2021:** início da implantação;
-- **5+ fluxos mobile:** disponibilizados ao longo da evolução;
-- **148 usuários habilitados:** até outubro de 2022;
-- **3 unidades brasileiras:** acompanhadas no escopo do projeto.
-
-> Usuários habilitados não significam necessariamente usuários ativos. Os dados históricos disponíveis permitem comprovar a liberação dos acessos, mas não o uso diário de cada funcionalidade.
+| **Março de 2021** | Modelagem e desenvolvimento | Estruturação inicial da solução mobile |
+| **Junho de 2021** | Fase 1 | Manutenção corretiva, criação de ordens e consulta de estoque |
+| **Dezembro de 2021** | Expansão | Manutenção preventiva e consulta de apontamentos de mão de obra |
+| **Novembro de 2022** | Novo fluxo | Requisição de materiais |
 
 ---
 
 ## Piloto e gestão da mudança
 
-Uma solução tecnicamente funcional não gera valor se os usuários não a adotarem.
+Uma solução funcional só gera valor quando se encaixa na rotina e é adotada pelas equipes.
 
-Por isso, o projeto incluiu um ciclo de validação em ambiente real:
+O piloto começou com equipes de manutenção elétrica e um escopo controlado. O ciclo de validação seguiu a lógica:
 
-**Desenvolver → Testar → Observar → Relatar problemas → Corrigir → Testar novamente**
-
-O primeiro piloto foi realizado com equipes de manutenção elétrica e um escopo funcional limitado.
+**Desenvolver → Testar → Observar → Reportar → Corrigir → Testar novamente**
 
 Durante essa etapa:
 
 - erros técnicos e problemas de fluxo foram identificados em uso real;
-- os pontos encontrados foram reportados à equipe de TI;
+- os pontos foram discutidos com a equipe de TI;
 - as correções foram acompanhadas;
-- a solução foi testada novamente antes de uma expansão mais ampla.
+- a solução foi retestada antes da expansão.
 
-### Modelo de implantação
-
-A expansão da solução envolveu etapas como:
+### Modelo de rollout
 
 1. autorização dos usuários;
-2. preparação dos materiais de treinamento;
+2. preparação do treinamento;
 3. solicitação de acesso à rede Wi-Fi;
 4. liberação do acesso ao sistema;
-5. início do uso da solução mobile.
+5. início do uso mobile.
 
-A equipe de PCM foi treinada inicialmente para depois apoiar as demais equipes de manutenção.
-
----
-
-## Impacto observado
-
-A implantação do SIM Mobile promoveu mudanças estruturais no processo:
-
-- aproximou atividades importantes do sistema do local de execução;
-- possibilitou registros mais próximos do momento em que o trabalho acontecia;
-- reduziu a dependência de computadores localizados em salas de apoio;
-- diminuiu etapas administrativas entre a execução e o registro;
-- fortaleceu a integração entre a operação de manutenção e a área de tecnologia;
-- criou uma base mais favorável para dados operacionais mais tempestivos;
-- ampliou o potencial de uso das informações para análises e indicadores.
+A equipe de PCM foi treinada primeiro para apoiar as demais equipes durante a implantação.
 
 ---
 
-## Limitação analítica
+## Impacto documentado
 
-Os registros históricos disponíveis acompanharam principalmente a habilitação de acessos e indicadores iniciais de adoção.
+Os registros disponíveis permitem afirmar que o projeto promoveu mudanças estruturais no processo:
 
-Esses dados não permitem afirmar, de forma isolada:
+- atividades importantes do sistema foram aproximadas do local de execução;
+- os registros passaram a poder acontecer mais perto do momento da atividade;
+- houve menor dependência de computadores em salas de apoio;
+- execução e registro ficaram mais conectados;
+- a operação ganhou uma base mais favorável para dados tempestivos e análises posteriores;
+- o projeto fortaleceu a colaboração entre manutenção e tecnologia.
 
-- a frequência de uso diário;
-- o número de usuários ativos;
-- a utilização de cada funcionalidade;
-- o ganho financeiro gerado;
-- a redução exata do tempo de execução;
-- o aumento quantitativo da produtividade.
+### Limite das evidências
 
-Por esse motivo, este case não atribui ao projeto resultados financeiros ou ganhos de produtividade que não possam ser comprovados.
+Os dados históricos disponíveis não comprovam, isoladamente:
+
+- frequência diária de uso;
+- usuários ativos por período;
+- adoção por funcionalidade;
+- redução exata de tempo;
+- ganho financeiro;
+- aumento quantitativo de produtividade.
+
+Por isso, o case não atribui ao projeto resultados que não possam ser sustentados pelas evidências existentes.
 
 ---
 
-## O que eu mediria em uma próxima fase
+## O que eu mediria hoje
 
-Uma etapa seguinte poderia conectar os dados de acesso, os eventos das ordens de manutenção e o desempenho das equipes para transformar os dados de implantação em inteligência de produto e de operação.
+Uma próxima etapa conectaria logs de acesso, eventos das ordens de manutenção e indicadores das equipes para transformar implantação em inteligência de produto e de operação.
 
-### Adoção
-
-- usuários ativos mensais;
-- conversão entre acesso habilitado e uso real;
-- frequência de uso;
-- taxa de adoção por funcionalidade;
-- adoção por equipe e unidade.
-
-### Eficiência operacional
-
-- tempo para encerramento das ordens;
-- percentual de ordens encerradas no mesmo turno;
-- tempo entre a execução e o registro;
-- participação do mobile em relação ao desktop;
-- tempo gasto em etapas administrativas.
-
-### Qualidade dos dados
-
-- ordens sem apontamento de mão de obra;
-- ordens abertas além do prazo esperado;
-- envelhecimento das ordens abertas;
-- taxa de registros realizados com atraso;
-- percentual de ordens com informações incompletas.
-
-### Impacto no negócio
-
-- tempo produtivo dos técnicos;
-- backlog de manutenção;
-- correlação com o MTTR;
-- disponibilidade dos equipamentos;
-- comportamento dos indicadores antes e depois da adoção;
-- relação entre uso da solução e desempenho das equipes.
+| Dimensão | Indicadores sugeridos |
+|---|---|
+| **Adoção** | usuários ativos mensais, conversão acesso-uso, frequência, adoção por funcionalidade, equipe e unidade |
+| **Eficiência** | tempo para encerramento, fechamento no mesmo turno, tempo entre execução e registro, participação mobile versus desktop |
+| **Qualidade dos dados** | ordens sem mão de obra, aging de ordens abertas, registros tardios, ordens incompletas |
+| **Negócio** | tempo produtivo, backlog, disponibilidade, correlação com MTTR e desempenho das equipes |
 
 ---
 
@@ -245,7 +203,7 @@ Uma etapa seguinte poderia conectar os dados de acesso, os eventos das ordens de
 
 ### 1. Transformação digital começa pela realidade operacional
 
-O ponto de partida não foi uma tecnologia específica. Foi um técnico precisando deixar a máquina para encontrar um computador.
+O ponto de partida não foi uma tecnologia. Foi um técnico precisando deixar a máquina para encontrar um computador.
 
 ### 2. Qualidade de dados começa antes do banco de dados
 
@@ -253,66 +211,39 @@ O problema não era inicialmente o dashboard. Era o momento e a forma como o dad
 
 ### 3. Negócio e tecnologia precisam de tradução
 
-A manutenção conhecia a dor operacional. A equipe de TI dominava a tecnologia. O projeto precisava conectar essas duas realidades.
+A manutenção conhecia a dor. A TI dominava a tecnologia. O projeto precisava conectar as duas realidades.
 
 ### 4. A entrega não termina no lançamento
 
-Testes, treinamento, comunicação, gestão de acessos, suporte e acompanhamento da adoção fizeram parte da jornada do produto.
+Testes, treinamento, comunicação, acessos e acompanhamento da adoção fizeram parte da jornada do produto.
 
-### 5. A adoção precisa ser medida com cuidado
+### 5. Acesso não é o mesmo que adoção
 
-Acesso habilitado não é sinônimo de uso ativo. Uma análise madura precisa diferenciar liberação, adoção, frequência de uso e geração de valor.
+Uma avaliação madura precisa separar habilitação, uso, frequência, adoção por funcionalidade e valor gerado.
 
 ---
 
 ## Competências demonstradas
 
-Este projeto evidencia competências relacionadas a:
-
-- transformação digital;
-- análise de processos;
-- business analysis;
-- levantamento de requisitos;
-- definição de requisitos funcionais;
-- gestão de produto;
-- product delivery;
-- melhoria contínua;
-- excelência operacional;
-- gestão da manutenção;
-- conexão entre negócio e tecnologia;
-- testes funcionais;
-- implantação de soluções;
-- gestão da mudança;
-- treinamento e adoção;
-- análise de dados operacionais;
-- pensamento analítico;
-- definição de indicadores.
+`Business Analysis` · `Transformação Digital` · `Análise de Processos` · `Requisitos Funcionais` · `Product Delivery` · `Excelência Operacional` · `Testes Funcionais` · `Gestão da Mudança` · `Adoção` · `Analytics` · `Indicadores`
 
 ---
 
-## Contexto profissional e confidencialidade
+## Confidencialidade
 
-O projeto foi desenvolvido no contexto da manutenção industrial, com participação direta das áreas operacionais e de Tecnologia da Informação.
-
-Por questões de confidencialidade, este case apresenta a estrutura do problema, da solução e da minha atuação sem expor:
-
-- dados internos sensíveis;
-- códigos ou informações técnicas proprietárias;
-- documentos reservados;
-- nomes de usuários;
-- informações estratégicas da empresa.
+Este repositório apresenta o problema, a solução, minha atuação e os aprendizados do projeto sem expor código proprietário, documentos internos, nomes de usuários ou informações estratégicas da empresa.
 
 ---
 
-## Próximas atualizações
+## Case executivo
 
-Este repositório será complementado com:
+O material completo reúne a narrativa visual do projeto, a jornada anterior, a evolução do produto, o piloto, a gestão da mudança, as evidências disponíveis e as oportunidades analíticas.
 
-- case completo em PDF;
-- versão brasileira do case executivo;
-- jornada visual do processo anterior;
-- comparação entre o cenário anterior e o cenário posterior;
-- arquitetura conceitual da solução;
-- linha do tempo visual do projeto;
-- principais telas e fluxos apresentados de forma não confidencial;
-- materiais adicionais sobre indicadores e oportunidades analíticas.
+### [📄 Visualizar o case completo em inglês](SIM_Mobile_Case_Study_Karine_de_Assis_EN.pdf.pdf)
+
+---
+
+<div align="center">
+  <strong>Karine de Assis</strong><br>
+  Business Analytics · Operational Excellence · Digital Transformation
+</div>
