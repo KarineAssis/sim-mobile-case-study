@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">Linha do tempo do projeto SIM Mobile</title>
+  <desc id="desc">Quatro marcos principais da evolução do projeto entre 2021 e 2022.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f6f8fa}.title{font:700 32px Arial,sans-serif;fill:#122b3f}.subtitle{font:400 18px Arial,sans-serif;fill:#5b6975}.line{stroke:#d7e0e7;stroke-width:6}.dot{fill:#c57b35}.card{fill:#fff;stroke:#d6dee5;stroke-width:2}.date{font:700 18px Arial,sans-serif;fill:#b46f2b}.stage{font:700 16px Arial,sans-serif;fill:#122b3f}.text{font:400 14px Arial,sans-serif;fill:#5b6975}
+    </style>
+  </defs>
+  <rect width="1400" height="360" rx="24" class="bg"/>
+  <text x="70" y="60" class="title">Evolução do projeto</text>
+  <text x="70" y="93" class="subtitle">O escopo foi ampliado de forma incremental, após testes e validações.</text>
+  <line x1="120" y1="200" x2="1280" y2="200" class="line"/>
+
+  <circle cx="180" cy="200" r="12" class="dot"/>
+  <rect x="70" y="228" width="235" height="95" rx="14" class="card"/>
+  <text x="95" y="257" class="date">Março de 2021</text>
+  <text x="95" y="282" class="stage">Modelagem e desenvolvimento</text>
+  <text x="95" y="304" class="text">Estruturação inicial da solução mobile</text>
+
+  <circle cx="480" cy="200" r="12" class="dot"/>
+  <rect x="365" y="82" width="245" height="95" rx="14" class="card"/>
+  <text x="390" y="111" class="date">Junho de 2021</text>
+  <text x="390" y="136" class="stage">Fase 1</text>
+  <text x="390" y="158" class="text">Corretiva, ordens e consulta de estoque</text>
+
+  <circle cx="800" cy="200" r="12" class="dot"/>
+  <rect x="675" y="228" width="260" height="95" rx="14" class="card"/>
+  <text x="700" y="257" class="date">Dezembro de 2021</text>
+  <text x="700" y="282" class="stage">Expansão</text>
+  <text x="700" y="304" class="text">Preventiva e apontamentos de mão de obra</text>
+
+  <circle cx="1120" cy="200" r="12" class="dot"/>
+  <rect x="1000" y="82" width="250" height="95" rx="14" class="card"/>
+  <text x="1025" y="111" class="date">Novembro de 2022</text>
+  <text x="1025" y="136" class="stage">Novo fluxo</text>
+  <text x="1025" y="158" class="text">Requisição de materiais</text>
+</svg>
