@@ -1,86 +1,41 @@
-<div align="center">
-  <img src="capa-sim-mobile.png" alt="Capa do case SIM Mobile" width="100%">
-</div>
-
-<br>
-
-<div align="center">
-  <a href="SIM_Mobile_Case_Study_Karine_de_Assis_PT.pdf"><strong>📄 Versão em português</strong></a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="SIM_Mobile_Case_Study_Karine_de_Assis_EN.pdf"><strong>📄 English version</strong></a>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Business%20Analysis-0B2436?style=for-the-badge" alt="Business Analysis">
-  <img src="https://img.shields.io/badge/Operational%20Excellence-0B2436?style=for-the-badge" alt="Operational Excellence">
-  <img src="https://img.shields.io/badge/Product%20Delivery-D18A3F?style=for-the-badge" alt="Product Delivery">
-  <img src="https://img.shields.io/badge/Change%20Management-D18A3F?style=for-the-badge" alt="Change Management">
-</div>
-
 # SIM Mobile
 
-## Do registro tardio à operação conectada
+**Case de transformação digital aplicada à manutenção industrial**
 
-O **SIM Mobile** foi uma iniciativa de transformação digital aplicada à manutenção industrial. O objetivo era aproximar atividades críticas do sistema corporativo do local onde o trabalho realmente acontecia.
+O SIM Mobile foi uma iniciativa criada para disponibilizar, em dispositivos móveis, atividades relevantes do sistema corporativo de manutenção. O objetivo era reduzir a dependência de computadores fixos e aproximar o registro das informações do local onde o trabalho era executado.
 
-O problema não estava apenas no sistema ou nos indicadores. Estava no momento em que o dado era registrado.
+## Documentos
 
-Enquanto a manutenção acontecia no chão de fábrica, atividades como consultar estoque, abrir ou atualizar ordens, registrar mão de obra e concluir serviços ainda dependiam de computadores fixos em salas de apoio. Quando o acesso não era imediato, o registro podia ser adiado até o fim do turno.
+- [Case completo em português](SIM_Mobile_Case_Study_Karine_de_Assis_PT.pdf)
+- [Complete case study in English](SIM_Mobile_Case_Study_Karine_de_Assis_EN.pdf)
 
-A solução levou os fluxos mais importantes para dispositivos móveis e criou uma conexão mais direta entre execução, registro e análise.
+## Contexto
 
----
+Técnicos de manutenção executavam atividades no chão de fábrica, mas ainda precisavam se deslocar até salas de apoio para consultar estoque, abrir ou atualizar ordens de manutenção, registrar mão de obra e concluir serviços.
 
-## Visão geral
+Quando o acesso a um computador não era imediato, parte dos registros era feita posteriormente. Isso aumentava a distância entre a execução do trabalho e a informação disponível no sistema.
 
-| Indicador | Evidência disponível |
-|---|---:|
-| Início da implantação | **2021** |
-| Fluxos disponibilizados | **5+** |
-| Usuários habilitados até out/2022 | **148** |
-| Unidades brasileiras acompanhadas | **3** |
+## Problema de negócio
 
-> **Nota de leitura:** usuários habilitados não equivalem automaticamente a usuários ativos. Os dados históricos disponíveis comprovam a liberação dos acessos, mas não a frequência diária de uso ou o ganho financeiro do projeto.
-
----
-
-## O desafio operacional
-
-O processo anterior criava uma desconexão física entre a manutenção e o sistema:
+O processo anterior apresentava os seguintes pontos:
 
 - dependência de computadores fixos;
 - deslocamentos entre a área produtiva e as salas de apoio;
 - espera por estações disponíveis;
 - registros realizados depois da execução;
-- ordens que permaneciam abertas por mais tempo;
-- apontamentos de mão de obra feitos posteriormente;
-- menor aderência entre o sistema e a realidade operacional.
+- ordens de manutenção abertas por mais tempo;
+- apontamentos de mão de obra realizados posteriormente;
+- menor aderência entre os dados do sistema e a realidade operacional.
 
-### A cadeia por trás do problema
+A sequência observada era:
 
-**Registro atrasado → apontamentos ausentes → ordens abertas → dados menos confiáveis → capacidade analítica limitada**
+`registro atrasado → apontamentos ausentes → ordens abertas → dados menos confiáveis → capacidade analítica limitada`
 
-A operação acontecia, mas o sistema nem sempre refletia essa realidade no mesmo momento.
+## Solução
 
----
+O SIM Mobile foi desenvolvido como uma extensão dos fluxos mais relevantes do sistema corporativo, sem reproduzir integralmente a versão desktop.
 
-## Antes e depois
-
-<div align="center">
-  <img src="assets/processo-antes-depois.svg" alt="Comparação entre o processo anterior e o processo com o SIM Mobile" width="100%">
-</div>
-
-A principal mudança não foi simplesmente trocar o computador pelo celular. Foi aproximar o registro do ponto de execução e reduzir etapas entre o trabalho realizado e o dado disponível no sistema.
-
----
-
-## A solução
-
-O SIM Mobile foi concebido como uma extensão dos fluxos mais relevantes do sistema corporativo de manutenção — não como uma réplica completa da versão desktop.
-
-A evolução priorizou os momentos de maior atrito operacional:
+As funcionalidades disponibilizadas ao longo do projeto incluíram:
 
 - manutenção corretiva;
 - criação e atualização de ordens de manutenção;
@@ -89,164 +44,106 @@ A evolução priorizou os momentos de maior atrito operacional:
 - consulta de apontamentos de mão de obra;
 - requisição de materiais.
 
-### Princípio de desenho
-
-> **O que o técnico realmente precisa fazer enquanto está ao lado da máquina?**
-
-Essa pergunta orientou a priorização das funcionalidades e manteve o produto conectado à rotina real dos usuários.
-
----
-
 ## Minha atuação
 
-Liderei a iniciativa pelo lado do negócio, conectando a experiência da manutenção à entrega técnica conduzida pela equipe de TI.
+Conduzi a iniciativa pelo lado do negócio, em interface com a equipe de Tecnologia da Informação.
 
-Meu escopo incluiu:
+Minhas responsabilidades incluíram:
 
-- identificação das dores operacionais;
+- identificação das necessidades operacionais;
 - mapeamento da jornada dos usuários;
-- levantamento e priorização de necessidades;
-- tradução dos processos em requisitos funcionais;
+- levantamento e priorização de requisitos;
 - definição de telas, fluxos e comportamentos esperados;
-- alinhamento contínuo entre Manutenção e Tecnologia da Informação;
+- alinhamento entre Manutenção e TI;
 - acompanhamento do desenvolvimento;
-- execução de testes funcionais;
-- identificação de erros e inconsistências;
-- coordenação de correções e novos ciclos de teste;
+- testes funcionais;
+- registro de erros e acompanhamento de correções;
 - condução do piloto;
 - treinamento inicial da equipe de PCM;
-- apoio ao rollout, comunicação e gestão da mudança;
-- acompanhamento da liberação de acessos e da adoção inicial.
+- apoio à implantação e à liberação de acessos;
+- acompanhamento da adoção inicial.
 
-O desenvolvimento técnico do software ficou sob responsabilidade da TI. Minha responsabilidade foi garantir que a solução refletisse os processos reais e pudesse ser aplicada no ambiente operacional.
+O desenvolvimento técnico do software ficou sob responsabilidade da equipe de TI.
 
----
+## Escopo documentado
 
-## Evolução do produto
+| Indicador | Resultado |
+|---|---:|
+| Início da implantação | 2021 |
+| Fluxos mobile disponibilizados | 5+ |
+| Usuários habilitados até outubro de 2022 | 148 |
+| Unidades brasileiras acompanhadas | 3 |
 
-A solução foi ampliada de forma incremental, começando pelos fluxos de maior atrito e avançando após testes e validações.
+Usuários habilitados não equivalem necessariamente a usuários ativos. Os dados históricos disponíveis comprovam a liberação dos acessos, mas não a frequência diária de uso.
+
+## Evolução do projeto
 
 | Período | Etapa | Entrega |
 |---|---|---|
-| **Março de 2021** | Modelagem e desenvolvimento | Estruturação inicial da solução mobile |
-| **Junho de 2021** | Fase 1 | Manutenção corretiva, criação de ordens e consulta de estoque |
-| **Dezembro de 2021** | Expansão | Manutenção preventiva e consulta de apontamentos de mão de obra |
-| **Novembro de 2022** | Novo fluxo | Requisição de materiais |
+| Março de 2021 | Modelagem e desenvolvimento | Estruturação inicial da solução mobile |
+| Junho de 2021 | Fase 1 | Manutenção corretiva, criação de ordens e consulta de estoque |
+| Dezembro de 2021 | Expansão | Manutenção preventiva e consulta de apontamentos de mão de obra |
+| Novembro de 2022 | Novo fluxo | Requisição de materiais |
 
----
+## Piloto e implantação
 
-## Piloto e gestão da mudança
+O piloto começou com equipes de manutenção elétrica e um escopo funcional controlado.
 
-Uma solução funcional só gera valor quando se encaixa na rotina e é adotada pelas equipes.
+O ciclo de validação adotado foi:
 
-O piloto começou com equipes de manutenção elétrica e um escopo controlado. O ciclo de validação seguiu a lógica:
+`desenvolvimento → teste → uso em campo → registro de problemas → correção → novo teste`
 
-**Desenvolver → Testar → Observar → Reportar → Corrigir → Testar novamente**
-
-Durante essa etapa:
-
-- erros técnicos e problemas de fluxo foram identificados em uso real;
-- os pontos foram discutidos com a equipe de TI;
-- as correções foram acompanhadas;
-- a solução foi retestada antes da expansão.
-
-### Modelo de rollout
-
-1. autorização dos usuários;
-2. preparação do treinamento;
-3. solicitação de acesso à rede Wi-Fi;
-4. liberação do acesso ao sistema;
-5. início do uso mobile.
-
-A equipe de PCM foi treinada primeiro para apoiar as demais equipes durante a implantação.
-
----
+A implantação envolveu autorização dos usuários, treinamento, solicitação de acesso à rede Wi-Fi, liberação do sistema e início do uso mobile. A equipe de PCM foi treinada primeiro para apoiar as demais equipes durante a expansão.
 
 ## Impacto documentado
 
-Os registros disponíveis permitem afirmar que o projeto promoveu mudanças estruturais no processo:
+Os registros disponíveis permitem afirmar que o projeto:
 
-- atividades importantes do sistema foram aproximadas do local de execução;
-- os registros passaram a poder acontecer mais perto do momento da atividade;
-- houve menor dependência de computadores em salas de apoio;
-- execução e registro ficaram mais conectados;
-- a operação ganhou uma base mais favorável para dados tempestivos e análises posteriores;
-- o projeto fortaleceu a colaboração entre manutenção e tecnologia.
+- aproximou atividades do sistema do local de execução;
+- permitiu registros mais próximos do momento da atividade;
+- reduziu a dependência de computadores em salas de apoio;
+- aproximou execução e registro;
+- criou uma base mais favorável para dados operacionais atualizados;
+- fortaleceu a colaboração entre manutenção e tecnologia.
 
-### Limite das evidências
+Os dados disponíveis não permitem atribuir ao projeto, de forma isolada, ganho financeiro, redução exata de tempo ou aumento quantitativo de produtividade.
 
-Os dados históricos disponíveis não comprovam, isoladamente:
+## Indicadores para uma próxima fase
 
-- frequência diária de uso;
-- usuários ativos por período;
-- adoção por funcionalidade;
-- redução exata de tempo;
-- ganho financeiro;
-- aumento quantitativo de produtividade.
+Uma etapa posterior poderia conectar logs de acesso, eventos das ordens de manutenção e indicadores das equipes.
 
-Por isso, o case não atribui ao projeto resultados que não possam ser sustentados pelas evidências existentes.
+### Adoção
 
----
+- usuários ativos mensais;
+- conversão entre acesso habilitado e uso;
+- frequência de uso;
+- adoção por funcionalidade, equipe e unidade.
 
-## O que eu mediria hoje
+### Eficiência operacional
 
-Uma próxima etapa conectaria logs de acesso, eventos das ordens de manutenção e indicadores das equipes para transformar implantação em inteligência de produto e de operação.
+- tempo para encerramento das ordens;
+- percentual de ordens encerradas no mesmo turno;
+- tempo entre execução e registro;
+- participação do mobile em relação ao desktop.
 
-| Dimensão | Indicadores sugeridos |
-|---|---|
-| **Adoção** | usuários ativos mensais, conversão acesso-uso, frequência, adoção por funcionalidade, equipe e unidade |
-| **Eficiência** | tempo para encerramento, fechamento no mesmo turno, tempo entre execução e registro, participação mobile versus desktop |
-| **Qualidade dos dados** | ordens sem mão de obra, aging de ordens abertas, registros tardios, ordens incompletas |
-| **Negócio** | tempo produtivo, backlog, disponibilidade, correlação com MTTR e desempenho das equipes |
+### Qualidade dos dados
 
----
+- ordens sem apontamento de mão de obra;
+- envelhecimento das ordens abertas;
+- taxa de registros tardios;
+- percentual de ordens incompletas.
 
-## Principais aprendizados
+### Desempenho do negócio
 
-### 1. Transformação digital começa pela realidade operacional
+- tempo produtivo dos técnicos;
+- backlog de manutenção;
+- disponibilidade dos equipamentos;
+- correlação entre uso da solução e MTTR.
 
-O ponto de partida não foi uma tecnologia. Foi um técnico precisando deixar a máquina para encontrar um computador.
+## Competências aplicadas
 
-### 2. Qualidade de dados começa antes do banco de dados
-
-O problema não era inicialmente o dashboard. Era o momento e a forma como o dado era capturado.
-
-### 3. Negócio e tecnologia precisam de tradução
-
-A manutenção conhecia a dor. A TI dominava a tecnologia. O projeto precisava conectar as duas realidades.
-
-### 4. A entrega não termina no lançamento
-
-Testes, treinamento, comunicação, acessos e acompanhamento da adoção fizeram parte da jornada do produto.
-
-### 5. Acesso não é o mesmo que adoção
-
-Uma avaliação madura precisa separar habilitação, uso, frequência, adoção por funcionalidade e valor gerado.
-
----
-
-## Competências demonstradas
-
-`Business Analysis` · `Transformação Digital` · `Análise de Processos` · `Requisitos Funcionais` · `Product Delivery` · `Excelência Operacional` · `Testes Funcionais` · `Gestão da Mudança` · `Adoção` · `Analytics` · `Indicadores`
-
----
+`Business Analysis` · `Análise de Processos` · `Requisitos Funcionais` · `Transformação Digital` · `Testes Funcionais` · `Gestão da Mudança` · `Implantação` · `Indicadores Operacionais`
 
 ## Confidencialidade
 
-Este repositório apresenta o problema, a solução, minha atuação e os aprendizados do projeto sem expor código proprietário, documentos internos, nomes de usuários ou informações estratégicas da empresa.
-
----
-
-## Cases executivos
-
-Os materiais completos reúnem a narrativa visual do projeto, a jornada anterior, a evolução do produto, o piloto, a gestão da mudança, as evidências disponíveis e as oportunidades analíticas.
-
-- [📄 Visualizar o case completo em português](SIM_Mobile_Case_Study_Karine_de_Assis_PT.pdf)
-- [📄 View the complete case study in English](SIM_Mobile_Case_Study_Karine_de_Assis_EN.pdf)
-
----
-
-<div align="center">
-  <strong>Karine de Assis</strong><br>
-  Business Analytics · Operational Excellence · Digital Transformation
-</div>
+O repositório apresenta o contexto, o processo, a solução e minha atuação sem expor código proprietário, documentos internos, nomes de usuários ou informações estratégicas da empresa.
