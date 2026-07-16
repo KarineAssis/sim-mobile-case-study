@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
+  <title id="title">Processo antes e depois do SIM Mobile</title>
+  <desc id="desc">Comparação entre o processo anterior dependente de computadores fixos e o processo com acesso móvel no local da execução.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f6f8fa}.title{font:700 34px Arial,sans-serif;fill:#122b3f}.subtitle{font:400 18px Arial,sans-serif;fill:#5b6975}.head-left{font:700 22px Arial,sans-serif;fill:#667785}.head-right{font:700 22px Arial,sans-serif;fill:#b46f2b}.card{fill:#fff;stroke:#d6dee5;stroke-width:2}.card-right{fill:#fff;stroke:#d7ad82;stroke-width:2}.label{font:700 17px Arial,sans-serif;fill:#122b3f}.small{font:400 14px Arial,sans-serif;fill:#5b6975}.arrow{stroke:#9aa7b1;stroke-width:3;fill:none;marker-end:url(#a1)}.arrow2{stroke:#c57b35;stroke-width:3;fill:none;marker-end:url(#a2)}.outcome{font:700 18px Arial,sans-serif;fill:#122b3f}.caption{font:400 15px Arial,sans-serif;fill:#5b6975}
+    </style>
+    <marker id="a1" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#9aa7b1"/></marker>
+    <marker id="a2" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#c57b35"/></marker>
+  </defs>
+  <rect class="bg" width="1400" height="720" rx="24"/>
+  <text x="70" y="65" class="title">Antes e depois do SIM Mobile</text>
+  <text x="70" y="98" class="subtitle">A mudança central foi aproximar o registro do ponto onde o trabalho acontecia.</text>
+  <line x1="700" y1="135" x2="700" y2="645" stroke="#dde5eb" stroke-width="2"/>
+
+  <text x="70" y="155" class="head-left">ANTES</text>
+  <rect x="70" y="195" width="235" height="98" rx="14" class="card"/>
+  <text x="188" y="232" text-anchor="middle" class="label">Necessidade identificada</text>
+  <text x="188" y="258" text-anchor="middle" class="small">Atividade no chão de fábrica</text>
+
+  <rect x="390" y="195" width="235" height="98" rx="14" class="card"/>
+  <text x="508" y="232" text-anchor="middle" class="label">Deslocamento</text>
+  <text x="508" y="258" text-anchor="middle" class="small">Saída da área produtiva</text>
+
+  <rect x="70" y="360" width="235" height="98" rx="14" class="card"/>
+  <text x="188" y="397" text-anchor="middle" class="label">Espera por computador</text>
+  <text x="188" y="423" text-anchor="middle" class="small">Dependência de estação fixa</text>
+
+  <rect x="390" y="360" width="235" height="98" rx="14" class="card"/>
+  <text x="508" y="397" text-anchor="middle" class="label">Registro no sistema</text>
+  <text x="508" y="423" text-anchor="middle" class="small">Informação atualizada depois</text>
+
+  <rect x="230" y="530" width="235" height="98" rx="14" class="card"/>
+  <text x="348" y="567" text-anchor="middle" class="outcome">Mais distância</text>
+  <text x="348" y="593" text-anchor="middle" class="caption">entre execução e registro</text>
+
+  <path d="M305 244H375" class="arrow"/><path d="M508 293V330H188V348" class="arrow"/><path d="M305 409H375" class="arrow"/><path d="M508 458V495H348V518" class="arrow"/>
+
+  <text x="760" y="155" class="head-right">COM SIM MOBILE</text>
+  <rect x="760" y="195" width="235" height="98" rx="14" class="card-right"/>
+  <text x="878" y="232" text-anchor="middle" class="label">Necessidade identificada</text>
+  <text x="878" y="258" text-anchor="middle" class="small">Atividade no chão de fábrica</text>
+
+  <rect x="1080" y="195" width="235" height="98" rx="14" class="card-right"/>
+  <text x="1198" y="232" text-anchor="middle" class="label">Acesso mobile</text>
+  <text x="1198" y="258" text-anchor="middle" class="small">Fluxo disponível no local</text>
+
+  <rect x="760" y="360" width="235" height="98" rx="14" class="card-right"/>
+  <text x="878" y="397" text-anchor="middle" class="label">Registro em campo</text>
+  <text x="878" y="423" text-anchor="middle" class="small">Informação mais próxima da atividade</text>
+
+  <rect x="1080" y="360" width="235" height="98" rx="14" class="card-right"/>
+  <text x="1198" y="397" text-anchor="middle" class="label">Dado disponível</text>
+  <text x="1198" y="423" text-anchor="middle" class="small">Base mais oportuna para análise</text>
+
+  <rect x="880" y="530" width="320" height="98" rx="14" class="card-right"/>
+  <text x="1040" y="567" text-anchor="middle" class="outcome">Mais proximidade</text>
+  <text x="1040" y="593" text-anchor="middle" class="caption">entre execução, registro e análise</text>
+
+  <path d="M995 244H1065" class="arrow2"/><path d="M1198 293V330H878V348" class="arrow2"/><path d="M995 409H1065" class="arrow2"/><path d="M1198 458V495H1040V518" class="arrow2"/>
+</svg>
