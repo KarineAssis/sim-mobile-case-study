@@ -4,10 +4,10 @@
 
 O SIM Mobile foi uma iniciativa criada para disponibilizar, em dispositivos móveis, atividades relevantes do sistema corporativo de manutenção. O objetivo era reduzir a dependência de computadores fixos e aproximar o registro das informações do local onde o trabalho era executado.
 
-## Documentos
+## Documentação
 
-- [Case completo em português](SIM_Mobile_Case_Study_Karine_de_Assis_PT.pdf)
-- [Complete case study in English](SIM_Mobile_Case_Study_Karine_de_Assis_EN.pdf)
+- [Estudo de caso em português](CASE_STUDY_PT.md)
+- [Case study in English](CASE_STUDY_EN.md)
 
 ## Contexto
 
