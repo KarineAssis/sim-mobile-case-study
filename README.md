@@ -1,6 +1,8 @@
-# SIM Mobile
+<div align="center">
+  <img src="assets/project-cover.svg" alt="SIM Mobile — Do registro tardio à operação conectada" width="100%">
+</div>
 
-**Case de transformação digital aplicada à manutenção industrial**
+<br>
 
 O SIM Mobile foi uma iniciativa criada para disponibilizar, em dispositivos móveis, atividades relevantes do sistema corporativo de manutenção. O objetivo era reduzir a dependência de computadores fixos e aproximar o registro das informações do local onde o trabalho era executado.
 
