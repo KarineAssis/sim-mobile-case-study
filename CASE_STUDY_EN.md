@@ -1,12 +1,12 @@
-# SIM Mobile — Case Study
+# SIM Mobile — Data Analytics and Digital Transformation Case Study
 
 ## Executive summary
 
-SIM Mobile was a digital transformation initiative in industrial maintenance. The project made relevant maintenance-system activities available on mobile devices.
+SIM Mobile was a digital transformation initiative in industrial maintenance that illustrates a core Analytics principle: **the quality of insights depends on the quality and timing of data capture**.
 
-The main issue was the distance between work execution and data entry. Technicians working on the production floor still had to walk to fixed computers to check inventory, create or update maintenance work orders, record labor time, and close services.
+The main issue was the distance between work execution and data entry. Technicians working on the production floor still had to walk to fixed computers to check inventory, create or update maintenance work orders, record labor time, and close services. When data entry was postponed, the system no longer reflected operational reality at the right time.
 
-I led the initiative from the business side, working with the Information Technology team.
+I led the initiative from the business side, translating the operational problem into functional requirements, testing, pilot activities, rollout and measurement opportunities.
 
 ## Context
 
@@ -19,11 +19,16 @@ This process created:
 - data entry after the work had been completed;
 - work orders remaining open for longer;
 - labor records entered later;
-- lower alignment between system data and operational reality.
+- lower alignment between system data and operational reality;
+- a less reliable basis for indicators and analysis.
+
+### Data problem chain
+
+`field execution → movement and waiting → delayed data entry → open or incomplete work orders → lower data quality → limited insights`
 
 ## Objective
 
-Make the most relevant maintenance workflows available on mobile devices and bring data entry closer to the point of work.
+Make the most relevant maintenance workflows available on mobile devices and bring data entry closer to the point and time of work.
 
 ## Solution
 
@@ -53,7 +58,8 @@ My responsibilities included:
 - coordinating the pilot;
 - training the PCM team;
 - supporting rollout and access enablement;
-- monitoring initial adoption.
+- monitoring initial adoption;
+- defining metrics for adoption, efficiency and data quality.
 
 The technical development of the software was the responsibility of the IT team.
 
@@ -108,7 +114,9 @@ The available evidence supports that the project:
 
 The available data does not support attributing isolated financial gains, exact time reduction, or quantified productivity improvement to the project.
 
-## Metrics for a next phase
+## Analytics opportunity
+
+A next phase could integrate access logs, work-order events and performance indicators to evaluate adoption, efficiency and operational impact.
 
 ### Adoption
 
@@ -137,6 +145,10 @@ The available data does not support attributing isolated financial gains, exact 
 - maintenance backlog;
 - equipment availability;
 - correlation between solution usage and MTTR.
+
+## Skills demonstrated
+
+`Data Capture` · `Data Quality` · `Operational Analytics` · `Business Analysis` · `Functional Requirements` · `KPI Definition` · `Functional Testing` · `Change Management` · `Stakeholder Management`
 
 ## Confidentiality
 
