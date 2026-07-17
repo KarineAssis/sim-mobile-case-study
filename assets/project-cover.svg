@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
-  <title id="title">SIM Mobile</title>
-  <desc id="desc">Capa tipográfica minimalista para o estudo de caso SIM Mobile.</desc>
+  <title id="title">SIM Mobile - Data Capture and Operational Analytics</title>
+  <desc id="desc">Capa tipográfica minimalista para o estudo de caso SIM Mobile com foco em captura e qualidade de dados.</desc>
   <rect width="1400" height="500" rx="18" fill="#0B2233"/>
   <rect x="76" y="70" width="92" height="4" rx="2" fill="#C9853F"/>
-  <text x="76" y="126" fill="#C9853F" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2">ESTUDO DE CASO 01</text>
+  <text x="76" y="126" fill="#C9853F" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2">DATA ANALYTICS CASE 01</text>
   <text x="76" y="235" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">SIM MOBILE</text>
-  <text x="76" y="300" fill="#D7E0E6" font-family="Arial, Helvetica, sans-serif" font-size="30">Do registro tardio à operação conectada</text>
-  <text x="76" y="360" fill="#AEBBC4" font-family="Arial, Helvetica, sans-serif" font-size="21">Transformação digital aplicada à manutenção industrial</text>
+  <text x="76" y="300" fill="#D7E0E6" font-family="Arial, Helvetica, sans-serif" font-size="30">Da captura tardia a dados mais próximos da operação</text>
+  <text x="76" y="360" fill="#AEBBC4" font-family="Arial, Helvetica, sans-serif" font-size="21">Data Capture · Data Quality · Business Analysis · Operational Analytics</text>
   <line x1="76" y1="418" x2="1324" y2="418" stroke="#365064" stroke-width="1"/>
-  <text x="76" y="458" fill="#AEBBC4" font-family="Arial, Helvetica, sans-serif" font-size="17">Karine de Assis · Business Analysis · Operational Excellence · Change Management</text>
+  <text x="76" y="458" fill="#AEBBC4" font-family="Arial, Helvetica, sans-serif" font-size="17">Karine de Assis · Transformando problemas operacionais em fundamentos para melhores decisões</text>
 </svg>
