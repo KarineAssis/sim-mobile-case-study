@@ -1,12 +1,12 @@
-# SIM Mobile — Estudo de caso
+# SIM Mobile — Estudo de caso de Data Analytics e transformação digital
 
 ## Resumo executivo
 
-O SIM Mobile foi uma iniciativa de transformação digital aplicada à manutenção industrial. O projeto disponibilizou, em dispositivos móveis, atividades relevantes do sistema corporativo de manutenção.
+O SIM Mobile foi uma iniciativa de transformação digital aplicada à manutenção industrial que evidencia um princípio central de Analytics: **a qualidade dos insights depende da qualidade e do momento da captura dos dados**.
 
-O problema principal era a distância entre a execução do trabalho e o registro das informações. Técnicos que atuavam no chão de fábrica ainda precisavam se deslocar até computadores fixos para consultar estoque, abrir ou atualizar ordens de manutenção, registrar mão de obra e concluir serviços.
+O problema principal era a distância entre a execução do trabalho e o registro das informações. Técnicos que atuavam no chão de fábrica ainda precisavam se deslocar até computadores fixos para consultar estoque, abrir ou atualizar ordens de manutenção, registrar mão de obra e concluir serviços. Quando o registro era adiado, o sistema deixava de refletir a operação no momento adequado.
 
-Atuei na condução do projeto pelo lado do negócio, em interface com a equipe de Tecnologia da Informação.
+Atuei na condução do projeto pelo lado do negócio, traduzindo o problema operacional em requisitos funcionais, testes, piloto, implantação e oportunidades de mensuração.
 
 ## Contexto
 
@@ -19,11 +19,16 @@ Esse processo gerava:
 - registros realizados depois da execução;
 - ordens de manutenção abertas por mais tempo;
 - apontamentos de mão de obra feitos posteriormente;
-- menor aderência entre o sistema e a realidade operacional.
+- menor aderência entre o sistema e a realidade operacional;
+- uma base menos confiável para indicadores e análises.
+
+### Cadeia do problema de dados
+
+`execução em campo → deslocamento e espera → registro tardio → ordens abertas ou incompletas → menor qualidade dos dados → insights limitados`
 
 ## Objetivo
 
-Disponibilizar, em dispositivos móveis, os fluxos mais relevantes para a rotina dos técnicos de manutenção, aproximando o registro das informações do local de execução.
+Disponibilizar, em dispositivos móveis, os fluxos mais relevantes para a rotina dos técnicos de manutenção, aproximando o registro das informações do local e do momento de execução.
 
 ## Solução
 
@@ -53,7 +58,8 @@ Minhas responsabilidades incluíram:
 - condução do piloto;
 - treinamento inicial da equipe de PCM;
 - apoio à implantação e à liberação de acessos;
-- acompanhamento da adoção inicial.
+- acompanhamento da adoção inicial;
+- definição de indicadores para avaliar adoção, eficiência e qualidade dos dados.
 
 O desenvolvimento técnico do software ficou sob responsabilidade da equipe de TI.
 
@@ -108,7 +114,9 @@ Os dados disponíveis permitem afirmar que o projeto:
 
 Os dados disponíveis não permitem atribuir ao projeto, de forma isolada, ganho financeiro, redução exata de tempo ou aumento quantitativo de produtividade.
 
-## Indicadores para uma próxima fase
+## Oportunidade analítica
+
+Uma próxima fase poderia integrar logs de acesso, eventos das ordens de manutenção e indicadores de desempenho para avaliar adoção, eficiência e impacto operacional.
 
 ### Adoção
 
@@ -137,6 +145,10 @@ Os dados disponíveis não permitem atribuir ao projeto, de forma isolada, ganho
 - backlog de manutenção;
 - disponibilidade dos equipamentos;
 - correlação entre uso da solução e MTTR.
+
+## Competências demonstradas
+
+`Data Capture` · `Data Quality` · `Operational Analytics` · `Business Analysis` · `Requisitos Funcionais` · `Indicadores` · `Testes Funcionais` · `Gestão da Mudança` · `Stakeholder Management`
 
 ## Confidencialidade
 
